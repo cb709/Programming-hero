@@ -138,7 +138,6 @@ img {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player-title {
     font-size: 30px;
@@ -241,23 +240,23 @@ footer {
         justify-content: flex-start;
         align-items: flex-start;
         background-color: #fff;
-        width: 250px;
+        width: 270px;
         height: 100vh;
         border-radius: 10px;
         padding: 10px;
     }
     .menu-item {
         margin-bottom: 4px;
-        display: block;
+        padding: 10px 0px;
+        color: #222222;
         width: 100%;
-        border-radius: 5px;
+        transition: all .3s ease-in-out;
+    }
+    .menu-item:hover {
         background-color: #E02C6D;
+        color: white;
     }
-    .menu-item{ 
-        display: block;
-        padding: 10px;
-        color: #fff;
-    }
+
     .menu-con label {
         display: inline-block;
     }
