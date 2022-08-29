@@ -1,5 +1,5 @@
 const loadData = () => {
-  fetch("https://randomuser.me/api/?results=50")
+  fetch("https://randomuser.me/api/?results=10")
     .then((res) => res.json())
     .then((data) => showData(data));
 };
@@ -33,3 +33,4 @@ function reset () {
     const userDiv = document.getElementById("random-user-container");
     userDiv.innerHTML = ''
 }
+
