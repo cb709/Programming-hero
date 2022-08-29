@@ -5,9 +5,9 @@
 //     ["oranges", 200]
 //   ]);
 
-  // for( const fruit of fruits.entries()) {
-  //   console.log(fruit);
-  // }
+// for( const fruit of fruits.entries()) {
+//   console.log(fruit);
+// }
 
   const person = {
     name: 'chinmoy',
