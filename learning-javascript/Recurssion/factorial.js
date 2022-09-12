@@ -1,10 +1,13 @@
-function factorial(i){
-    if(i == 0){
-        return 1;
-    }
-    else {
-        return (i * factorial(i-1))
-    }
+function factorial (num) {
+    // if(num==0) {
+    //     return 1;
+    // }
+    // else{
+    //     console.log(num)
+    //     return (num * factorial(num-1));
+    // }
+    return (num * factorial(num-1))
 }
 
-console.log(factorial(0));
+const sum = factorial(7)
+console.log(sum)

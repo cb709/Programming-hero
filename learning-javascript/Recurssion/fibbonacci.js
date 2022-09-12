@@ -10,10 +10,10 @@ function fibbonacci(i) {
      }
 }
 
-let n = 10;
+// let n = 10;
 
-for (let i = 0 ; i < n ; i++ ){
-    console.log(fibbonacci(i));
-}
+// for (let i = 0 ; i < n ; i++ ){
+//     console.log(fibbonacci(i));
+// }
 
-// console.log(fibbonacci(n))
+console.log(fibbonacci(6))
